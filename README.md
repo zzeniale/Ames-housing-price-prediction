@@ -8,7 +8,7 @@ In this project I examined a comprehensive housing dataset from the city of Ames
 
 To answer these questions, I fitted different linear regression models to the housing data in order to determine the features that are most influential on house price, and those that have the least effect. The performance of the models will be evaluated using the R<sup>2</sup> metric, which is a measure of how much the model is able to explain the variance in the dataset.
 
-Due to the scale of this project, it is split into three Jupyter notebooks: EDA and data cleaning, preprocessing and feature engineering, and model tuning and insights (along with an appendix showing some additional model results where I attempted automated feature selection with the [`featuretools` library](https://github.com/Featuretools/featuretools)). This is the EDA and data cleaning notebook.
+Due to the scale of this project, it is split into three Jupyter notebooks: EDA and data cleaning, preprocessing and feature engineering, and model tuning and insights (along with an appendix showing some additional model results where I attempted automated feature selection with the [`featuretools` library](https://github.com/Featuretools/featuretools)).
 
 ### Summary of Findings & Recommendations
 ---
@@ -59,13 +59,11 @@ In reality, house price may be difficult to predict as it is also affected by bu
            Grvl Gravel
            Pave Paved
            NA No alley access
-
        LotShape: General shape of property
            Reg Regular
            IR1 Slightly irregular
            IR2 Moderately Irregular
            IR3 Irregular
-
        LandContour: Flatness of the property
            Lvl Near Flat/Level
            Bnk Banked - Quick and significant rise from street grade to building
